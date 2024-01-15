@@ -113,6 +113,16 @@ body {
   width: 100%;
   top: 0;
   left: 0;
+  z-index: -1;
+
+  .header-Deco-1 {
+    position: absolute;
+    background-color: aqua;
+    height: 100%;
+    top: -65%;
+    border-radius: 65%;
+    width: 100%;
+  }
 }
 
 // header
