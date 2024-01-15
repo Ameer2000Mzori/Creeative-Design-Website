@@ -313,7 +313,7 @@ body {
         text-align: center;
         align-items: center;
         justify-content: space-evenly;
-        gap: 1rem;
+        gap: 3rem;
         margin-top: 2rem;
         margin-bottom: 2rem;
         flex-wrap: wrap;
@@ -403,8 +403,43 @@ body {
 }
 
 // customers media screen
-@media screen and (max-width: 1260px) {
-  // 1260px
+@media screen and (max-width: 1250px) {
+  // customers
+  .customers {
+    height: 2200px;
+
+    .customers-Wrap {
+      .customers-Top {
+        .customers-Top-Text-1 {
+          font-size: 8rem;
+        }
+      }
+
+      .customers-Bottom {
+        .customers-Bottom-Cards-Wrap {
+          .customers-Card {
+            .customers-Text-Wrap {
+              #customers-Card-Text-Icon {
+                font-size: 2.5rem;
+              }
+
+              .customers-Card-Text-2 {
+                font-size: 0.9rem;
+              }
+            }
+
+            .customers-Rate-Img-Name-Wrap {
+              .customers-Rate-Wrap {
+                #customers-Icon-Star {
+                  font-size: 1.2rem;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
 }
 @media screen and (max-width: 1060px) {
   // 1060px

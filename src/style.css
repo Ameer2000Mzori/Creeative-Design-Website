@@ -257,7 +257,7 @@ body {
   text-align: center;
   align-items: center;
   justify-content: space-evenly;
-  gap: 1rem;
+  gap: 3rem;
   margin-top: 2rem;
   margin-bottom: 2rem;
   flex-wrap: wrap;
@@ -328,6 +328,24 @@ body {
 .customers .customers-Wrap .customers-Bottom .customers-Bottom-Cards-Wrap .customers-Card.Bottom {
   position: relative;
   top: 100px;
+}
+
+@media screen and (max-width: 1250px) {
+  .customers {
+    height: 2200px;
+  }
+  .customers .customers-Wrap .customers-Top .customers-Top-Text-1 {
+    font-size: 8rem;
+  }
+  .customers .customers-Wrap .customers-Bottom .customers-Bottom-Cards-Wrap .customers-Card .customers-Text-Wrap #customers-Card-Text-Icon {
+    font-size: 2.5rem;
+  }
+  .customers .customers-Wrap .customers-Bottom .customers-Bottom-Cards-Wrap .customers-Card .customers-Text-Wrap .customers-Card-Text-2 {
+    font-size: 0.9rem;
+  }
+  .customers .customers-Wrap .customers-Bottom .customers-Bottom-Cards-Wrap .customers-Card .customers-Rate-Img-Name-Wrap .customers-Rate-Wrap #customers-Icon-Star {
+    font-size: 1.2rem;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
