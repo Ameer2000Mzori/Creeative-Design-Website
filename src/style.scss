@@ -42,6 +42,15 @@ body {
         list-style: none;
         padding: 0;
         margin: 0;
+        li {
+          height: 100%;
+          display: flex;
+          flex-direction: column;
+          text-align: start;
+          align-items: start;
+          justify-content: flex-start;
+          width: 25px;
+        }
       }
     }
   }
