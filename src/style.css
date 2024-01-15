@@ -13,6 +13,8 @@ body {
   align-items: center;
   justify-content: center;
   height: 28vh;
+  position: relative;
+  z-index: 10;
 }
 .navbar .navbar-Wrap {
   height: 100%;
@@ -119,7 +121,7 @@ body {
   top: -85rem;
   z-index: -3;
   animation: headerDeco 25s infinite linear; /* Adjust the duration as needed */
-  border-radius: 600px 900px 600px;
+  border-radius: 950px 1100px 800px;
 }
 
 @keyframes headerDeco {
@@ -128,6 +130,14 @@ body {
   }
   100% {
     transform: rotate(360deg);
+  }
+}
+@media screen and (max-width: 768px) {
+  .header-Deco .header-Deco-1 {
+    top: -110rem;
+  }
+  .header-Deco .header-Deco-2 {
+    top: -95rem;
   }
 }
 .header {
