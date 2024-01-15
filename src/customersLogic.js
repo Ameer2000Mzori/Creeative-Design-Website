@@ -32,19 +32,26 @@ class ShowCustomersCard {
   }
 
   showData() {
-    let ClassName;
+    let className;
+    let classStar;
     // testing the indexNum
     console.log(this.text, this.img, this.customersName, this.indexNum);
     this.indexNum === 0
-      ? (ClassName = "Top")
+      ? (className = "Top")
       : this.indexNum === 2
-      ? (ClassName = "Bottom")
-      : (ClassName = "");
+      ? (className = "Bottom")
+      : (className = "");
+
+    this.indexNum === 0
+      ? (className = "Top")
+      : this.indexNum === 2
+      ? (className = "Bottom")
+      : (className = "");
 
     // creating elements
     const customersCard = document.createElement("div");
     customersCard.classList.add(`customers-Card`);
-    customersCard.classList += ` ${ClassName}`;
+    customersCard.classList += ` ${className}`;
     // adding data dynamiclly
     customersCard.innerHTML = `
     <div class="customers-Text-Wrap">
