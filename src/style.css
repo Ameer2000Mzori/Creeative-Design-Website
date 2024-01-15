@@ -294,5 +294,14 @@ body {
   padding: 0;
   margin: 0;
 }
+.customers .customers-Wrap .customers-Bottom .customers-Bottom-Cards-Wrap .customers-Card .customers-Rate-Img-Name-Wrap {
+  height: 40%;
+  width: 100%;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
 
 /*# sourceMappingURL=style.css.map */
