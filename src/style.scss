@@ -264,4 +264,14 @@ body {
   justify-content: center;
   flex-direction: column;
   display: flex;
+
+  .customers-Wrap {
+    height: 90%;
+    width: 90%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+  }
 }
