@@ -383,6 +383,16 @@ body {
             }
           }
         }
+
+        .customers-Card.Top {
+          position: relative;
+          top: -100px;
+        }
+
+        .customers-Card.Bottom {
+          position: relative;
+          top: 100px;
+        }
       }
     }
   }

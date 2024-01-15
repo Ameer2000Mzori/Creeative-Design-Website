@@ -317,5 +317,13 @@ body {
 .customers .customers-Wrap .customers-Bottom .customers-Bottom-Cards-Wrap .customers-Card .customers-Rate-Img-Name-Wrap .customers-Card-Name {
   font-family: "Bellota Text", cursive;
 }
+.customers .customers-Wrap .customers-Bottom .customers-Bottom-Cards-Wrap .customers-Card.Top {
+  position: relative;
+  top: -100px;
+}
+.customers .customers-Wrap .customers-Bottom .customers-Bottom-Cards-Wrap .customers-Card.Bottom {
+  position: relative;
+  top: 100px;
+}
 
 /*# sourceMappingURL=style.css.map */
