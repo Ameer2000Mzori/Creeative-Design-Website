@@ -174,4 +174,13 @@ body {
   text-shadow: 0.1rem 0.1rem 0.2rem #ddd, -0.1rem -0.1rem 0.2rem #ddd;
 }
 
+@media screen and (max-width: 1200px) {
+  .header .header-Wrap .header-Title-Text {
+    font-size: 4rem;
+  }
+  .header .header-Wrap #header-Title-Icon {
+    font-size: 10rem;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */

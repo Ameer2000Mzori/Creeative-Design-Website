@@ -209,3 +209,23 @@ body {
     }
   }
 }
+// header media screen
+@media screen and (max-width: 1200px) {
+  .header {
+    .header-Wrap {
+      .header-Title-Text {
+        font-size: 4rem;
+      }
+
+      #header-Title-Icon {
+        font-size: 10rem;
+      }
+    }
+  }
+}
+@media screen and (max-width: 1000px) {
+  //1000px
+}
+@media screen and (max-width: 768px) {
+  //768px
+}
