@@ -258,5 +258,17 @@ body {
   justify-content: space-evenly;
   gap: 5rem;
 }
+.customers .customers-Wrap .customers-Bottom .customers-Bottom-Cards-Wrap .customers-Card {
+  width: 300px;
+  height: 450px;
+  background-color: #eee;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 0.5rem;
+  padding: 2rem;
+  box-shadow: 1rem 1rem 2rem #ddd, -1rem -1rem 2rem #eee;
+  transition: box-shadow 0.5s;
+}
 
 /*# sourceMappingURL=style.css.map */
