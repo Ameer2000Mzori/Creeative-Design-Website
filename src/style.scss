@@ -50,6 +50,20 @@ body {
           align-items: start;
           justify-content: flex-start;
           width: 25px;
+
+          a {
+            text-decoration: none;
+            font-family: $fontOne;
+            font-weight: 600;
+            color: black;
+            width: 1ch;
+            word-wrap: break-word;
+            font-size: 24px;
+            font-size: 1.5rem;
+            font-weight: 700;
+            letter-spacing: 0.2rem;
+            word-wrap: break-word;
+          }
         }
       }
     }
