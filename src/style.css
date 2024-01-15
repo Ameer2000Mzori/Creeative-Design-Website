@@ -442,5 +442,17 @@ body {
   justify-content: center;
   flex-direction: column;
 }
+.team .team-Wrap .team-Bottom-Cards-Wrap .team-Card {
+  position: relative;
+  height: 500px;
+  width: 350px;
+}
+.team .team-Wrap .team-Bottom-Cards-Wrap .team-Card .team-Card-Page-1 {
+  height: 100%;
+  width: 100%;
+}
+.team .team-Wrap .team-Bottom-Cards-Wrap .team-Card .team-Card-Page-2 {
+  display: none;
+}
 
 /*# sourceMappingURL=style.css.map */

@@ -579,6 +579,21 @@ body {
       align-items: center;
       justify-content: center;
       flex-direction: column;
+
+      .team-Card {
+        position: relative;
+        height: 500px;
+        width: 350px;
+
+        .team-Card-Page-1 {
+          height: 100%;
+          width: 100%;
+        }
+
+        .team-Card-Page-2 {
+          display: none;
+        }
+      }
     }
   }
 }
