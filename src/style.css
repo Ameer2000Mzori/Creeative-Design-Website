@@ -204,7 +204,7 @@ body {
 }
 .customers {
   margin-top: 5rem;
-  height: 100vh;
+  height: 120vh;
   text-align: center;
   align-items: center;
   justify-content: center;
@@ -259,8 +259,8 @@ body {
   gap: 5rem;
 }
 .customers .customers-Wrap .customers-Bottom .customers-Bottom-Cards-Wrap .customers-Card {
-  width: 300px;
-  height: 450px;
+  width: 320px;
+  height: 500px;
   background-color: #eee;
   display: flex;
   flex-direction: column;
@@ -274,13 +274,25 @@ body {
   box-shadow: 2rem 2rem 3rem #ddd, -2rem -2rem 3rem #eee;
 }
 .customers .customers-Wrap .customers-Bottom .customers-Bottom-Cards-Wrap .customers-Card .customers-Text-Wrap {
-  height: 50%;
+  height: 60%;
   width: 100%;
   text-align: center;
   align-items: center;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
+}
+.customers .customers-Wrap .customers-Bottom .customers-Bottom-Cards-Wrap .customers-Card .customers-Text-Wrap #customers-Card-Text-Icon {
+  color: #f08e0f;
+  font-size: 3rem;
+}
+.customers .customers-Wrap .customers-Bottom .customers-Bottom-Cards-Wrap .customers-Card .customers-Text-Wrap .customers-Card-Text-2 {
+  font-size: 1rem;
+  font-family: "Bellota Text", cursive;
+  font-weight: 900;
+  letter-spacing: 5px;
+  padding: 0;
+  margin: 0;
 }
 
 /*# sourceMappingURL=style.css.map */
