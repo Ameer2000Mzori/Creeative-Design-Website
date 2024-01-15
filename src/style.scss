@@ -332,7 +332,7 @@ body {
           }
 
           .customers-Text-Wrap {
-            height: 60%;
+            height: 50%;
             width: 100%;
             text-align: center;
             align-items: center;
@@ -356,7 +356,7 @@ body {
           }
 
           .customers-Rate-Img-Name-Wrap {
-            height: 40%;
+            height: 50%;
             width: 100%;
             text-align: center;
             align-items: center;
@@ -369,6 +369,13 @@ body {
                 color: #f08e0f;
                 font-size: 1.5rem;
               }
+            }
+
+            .customers-Card-Profile-Img {
+              height: 125px;
+              width: 125px;
+              object-fit: cover;
+              border-radius: 50%;
             }
           }
         }
