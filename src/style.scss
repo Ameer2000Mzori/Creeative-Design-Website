@@ -294,5 +294,15 @@ body {
         text-shadow: 2rem 2rem 4rem #aaa;
       }
     }
+
+    .customers-Bottom {
+      height: 75%;
+      width: 100%;
+      text-align: center;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+      display: flex;
+    }
   }
 }
