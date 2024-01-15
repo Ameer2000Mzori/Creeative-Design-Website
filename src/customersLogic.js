@@ -71,3 +71,14 @@ class ShowCustomersCard {
 }
 
 //functions // events
+DataObject.forEach((customersData, indexNum) => {
+  console.log(customersData, indexNum);
+  let newShowCustomersCard = new ShowCustomersCard(
+    customersData.Deco,
+    customersData.customersName,
+    customersData.img,
+    customersData.text,
+    indexNum
+  );
+  newShowCustomersCard.showData();
+});
