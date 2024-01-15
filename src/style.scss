@@ -327,7 +327,8 @@ body {
           transition: box-shadow 0.5s;
 
           &:hover {
-            box-shadow: 2rem 2rem 3rem #ddd, -2rem -2rem 3rem #eee;
+            cursor: pointer;
+            box-shadow: 2rem 2rem 3rem #fff, -1rem -1rem 2rem #acacac;
           }
 
           .customers-Text-Wrap {
@@ -353,6 +354,7 @@ body {
               margin: 0;
             }
           }
+
           .customers-Rate-Img-Name-Wrap {
             height: 40%;
             width: 100%;
