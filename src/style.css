@@ -314,5 +314,8 @@ body {
   object-fit: cover;
   border-radius: 50%;
 }
+.customers .customers-Wrap .customers-Bottom .customers-Bottom-Cards-Wrap .customers-Card .customers-Rate-Img-Name-Wrap .customers-Card-Name {
+  font-family: "Bellota Text", cursive;
+}
 
 /*# sourceMappingURL=style.css.map */
