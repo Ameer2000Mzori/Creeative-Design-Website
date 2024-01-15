@@ -24,17 +24,27 @@ const DataObject = [
 
 // class
 class ShowCustomersCard {
-  constructor(text, img, customersName) {
+  constructor(text, img, customersName, indexNum) {
     this.text = text;
     this.img = img;
     this.customersName = customersName;
+    this.indexNum = indexNum;
   }
 
   showData() {
+    let ClassName;
+    // testing the indexNum
+    console.log(this.text, this.img, this.customersName, this.indexNum);
+    this.indexNum === 0
+      ? (ClassName = "Top")
+      : this.indexNum === 2
+      ? (ClassName = "Bottom")
+      : (ClassName = "");
+
     // creating elements
     const customersCard = document.createElement("div");
-    customersCard.classList.add("customers-Card");
-
+    customersCard.classList.add(`customers-Card`);
+    customersCard.classList += ` ${ClassName}`;
     // adding data dynamiclly
     customersCard.innerHTML = `
     <div class="customers-Text-Wrap">
@@ -63,11 +73,12 @@ class ShowCustomersCard {
 }
 
 //functions // events
-DataObject.forEach((customersData) => {
+DataObject.forEach((customersData, indexNum) => {
   let newShowCustomersCard = new ShowCustomersCard(
     customersData.text,
     customersData.img,
-    customersData.customersName
+    customersData.customersName,
+    indexNum
   );
   newShowCustomersCard.showData();
 });
