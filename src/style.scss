@@ -191,13 +191,15 @@ body {
     align-items: center;
 
     .header-Title-Text {
-      font-size: 6rem;
+      font-size: 7rem;
       font-family: "Monoton", cursive;
       text-shadow: 0.3rem 0.3rem 0.3rem #888;
       color: #fff;
-      background-color: #fff;
+      background-color: #ffffffa2;
       opacity: 0.9;
       border-radius: 0.8rem;
+      text-align: center;
+      box-sizing: border-box;
     }
 
     #header-Title-Icon {
