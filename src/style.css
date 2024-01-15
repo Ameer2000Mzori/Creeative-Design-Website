@@ -165,5 +165,13 @@ body {
   opacity: 0.9;
   border-radius: 0.8rem;
 }
+.header .header-Wrap #header-Title-Icon {
+  position: absolute;
+  bottom: 5rem;
+  color: aqua;
+  font-size: 15rem;
+  color: rgba(50, 231, 255, 0.8);
+  text-shadow: 0.1rem 0.1rem 0.2rem #ddd, -0.1rem -0.1rem 0.2rem #ddd;
+}
 
 /*# sourceMappingURL=style.css.map */
