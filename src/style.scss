@@ -224,8 +224,17 @@ body {
   }
 }
 @media screen and (max-width: 1000px) {
-  //1000px
+  .header {
+    .header-Wrap {
+      .header-Title-Text {
+        font-size: 3rem;
+      }
+
+      #header-Title-Icon {
+        font-size: 7rem;
+      }
+    }
+  }
 }
 @media screen and (max-width: 768px) {
-  //768px
 }

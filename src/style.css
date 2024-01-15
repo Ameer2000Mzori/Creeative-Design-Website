@@ -182,5 +182,13 @@ body {
     font-size: 10rem;
   }
 }
+@media screen and (max-width: 1000px) {
+  .header .header-Wrap .header-Title-Text {
+    font-size: 3rem;
+  }
+  .header .header-Wrap #header-Title-Icon {
+    font-size: 7rem;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */
