@@ -101,6 +101,16 @@ body {
   top: -65%;
   border-radius: 65%;
   width: 100%;
+  z-index: -2;
+}
+.header-Deco .header-Deco-2 {
+  position: absolute;
+  background-color: rgba(11, 194, 194, 0.527);
+  height: 100%;
+  top: -55%;
+  border-radius: 85%;
+  width: 90%;
+  z-index: -3;
 }
 
 .header {
