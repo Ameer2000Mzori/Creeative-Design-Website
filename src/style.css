@@ -515,14 +515,24 @@ body {
 }
 .team .team-Wrap .team-Bottom-Cards-Wrap .team-Card .team-Card-Btn {
   position: absolute;
-  top: -15px;
-  right: -15px;
-  height: 50px;
-  width: 50px;
+  top: 0px;
+  right: -5px;
+  height: 40px;
+  width: 40px;
   border-radius: 50%;
 }
 .team .team-Wrap .team-Bottom-Cards-Wrap .team-Card .team-Card-Page-2 {
   display: none;
+}
+.team .team-Wrap .team-Bottom-Cards-Wrap .team-Card:before {
+  position: absolute;
+  height: 120%;
+  width: 120%;
+  background-color: rgba(255, 255, 255, 0.288);
+  z-index: 1;
+  content: "";
+  top: 0;
+  left: 0;
 }
 
 /*# sourceMappingURL=style.css.map */
