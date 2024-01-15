@@ -144,6 +144,16 @@ body {
   }
 }
 
+//header-Deco animations
+@keyframes headerDeco {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
 // header
 .header {
   height: 100vh;

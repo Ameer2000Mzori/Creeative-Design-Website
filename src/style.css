@@ -122,6 +122,14 @@ body {
   border-radius: 700px 1000px 700px;
 }
 
+@keyframes headerDeco {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
 .header {
   height: 100vh;
   display: flex;
