@@ -186,5 +186,17 @@ body {
     width: 90%;
     display: flex;
     flex-direction: column;
+    text-align: center;
+    align-items: center;
+
+    .header-Title-Text {
+      font-size: 6rem;
+      font-family: "Monoton", cursive;
+      text-shadow: 0.3rem 0.3rem 0.3rem #888;
+      color: #fff;
+      background-color: #fff;
+      opacity: 0.9;
+      border-radius: 0.8rem;
+    }
   }
 }
