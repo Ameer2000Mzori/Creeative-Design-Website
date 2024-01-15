@@ -180,6 +180,7 @@ body {
   align-items: center;
   justify-content: center;
   height: 70vh;
+  margin-top: 2rem;
 
   .header-Wrap {
     height: 100%;
@@ -201,9 +202,8 @@ body {
 
     #header-Title-Icon {
       position: absolute;
-      bottom: 5rem;
-      color: aqua;
-      font-size: 15rem;
+      bottom: 3rem;
+      font-size: 11rem;
       color: rgba(50, 231, 255, 0.8);
       text-shadow: 0.1rem 0.1rem 0.2rem #ddd, -0.1rem -0.1rem 0.2rem #ddd;
     }
@@ -223,6 +223,7 @@ body {
     }
   }
 }
+
 @media screen and (max-width: 1000px) {
   .header {
     .header-Wrap {
@@ -236,5 +237,18 @@ body {
     }
   }
 }
+
 @media screen and (max-width: 768px) {
+  .header {
+    .header-Wrap {
+      .header-Title-Text {
+        font-size: 1.9rem;
+        padding: 15px;
+      }
+
+      #header-Title-Icon {
+        font-size: 4rem;
+      }
+    }
+  }
 }
