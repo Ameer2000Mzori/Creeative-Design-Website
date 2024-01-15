@@ -111,6 +111,16 @@ body {
   animation: headerDeco 10s infinite linear; /* Adjust the duration as needed */
   border-radius: 1100px 800px 1100px;
 }
+.header-Deco .header-Deco-2 {
+  position: absolute;
+  background-color: rgba(50, 231, 255, 0.1);
+  width: 1900px;
+  height: 1900px;
+  top: -90rem;
+  z-index: -3;
+  animation: headerDeco 10s infinite linear; /* Adjust the duration as needed */
+  border-radius: 700px 1000px 700px;
+}
 
 .header {
   height: 100vh;
