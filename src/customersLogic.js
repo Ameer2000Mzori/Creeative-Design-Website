@@ -11,6 +11,18 @@ const DataObject = [
     img: "./assets/customer-img-1.jpg",
     customersName: "Jane Lee",
   },
+  {
+    Deco: "fas fa-quote-left",
+    text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora totam voluptatum accusantium pariatur, nulla quasi quibusdam ipsa quisquam repellat atque, tempore assumenda vitae. Earum fuga a accusamus, nisi ullam delectus!",
+    img: "./assets/customer-img-2.jpg",
+    customersName: "Bob Smith",
+  },
+  {
+    Deco: "fas fa-quote-left",
+    text: "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure dolorem hic, tempora provident optio consectetur non laudantium mollitia,",
+    img: "./assets/customer-img-3.jpg",
+    customersName: "Ann Brown",
+  },
 ];
 
 // class
@@ -58,6 +70,4 @@ class ShowCustomersCard {
   }
 }
 
-// functions
-
-//events
+//functions // events
