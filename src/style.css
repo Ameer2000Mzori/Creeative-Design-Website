@@ -515,7 +515,7 @@ body {
 }
 .team .team-Wrap .team-Bottom-Cards-Wrap .team-Card .team-Card-Btn {
   position: absolute;
-  top: 0px;
+  top: -5px;
   right: -5px;
   height: 40px;
   width: 40px;
@@ -526,13 +526,19 @@ body {
 }
 .team .team-Wrap .team-Bottom-Cards-Wrap .team-Card:before {
   position: absolute;
-  height: 120%;
-  width: 120%;
+  height: 100%;
+  width: 100%;
   background-color: rgba(255, 255, 255, 0.288);
   z-index: 1;
   content: "";
-  top: 0;
-  left: 0;
+  top: 0px;
+  right: 0px;
+  transition: all 250ms ease-in-out;
+}
+.team .team-Wrap .team-Bottom-Cards-Wrap .team-Card:hover:before {
+  height: 0%;
+  width: 0%;
+  z-index: 1;
 }
 
 /*# sourceMappingURL=style.css.map */
