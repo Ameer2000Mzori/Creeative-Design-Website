@@ -141,12 +141,18 @@ body {
   }
 }
 .header {
-  height: 100vh;
   display: flex;
   flex-direction: column;
   text-align: center;
   align-items: center;
   justify-content: center;
+  height: 70vh;
+}
+.header .header-Wrap {
+  height: 100%;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
 }
 
 /*# sourceMappingURL=style.css.map */
