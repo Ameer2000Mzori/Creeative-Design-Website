@@ -220,5 +220,14 @@ body {
   flex-direction: column;
   display: flex;
 }
+.customers .customers-Wrap .customers-Top {
+  height: 25%;
+  width: 100%;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  display: flex;
+}
 
 /*# sourceMappingURL=style.css.map */
