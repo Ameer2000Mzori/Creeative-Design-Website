@@ -20,10 +20,11 @@ body {
   flex-direction: column;
   text-align: center;
   align-items: center;
+  justify-content: flex-end;
 }
 .navbar .navbar-Wrap .navbar-Links {
   width: 60%;
-  height: 100%;
+  height: 90%;
   padding-top: 15px;
 }
 .navbar .navbar-Wrap .navbar-Links ul {
