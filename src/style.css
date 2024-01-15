@@ -86,6 +86,14 @@ body {
     letter-spacing: 0.1rem;
   }
 }
+.header-Deco {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+
 .header {
   height: 100vh;
   display: flex;
@@ -93,7 +101,6 @@ body {
   text-align: center;
   align-items: center;
   justify-content: center;
-  position: absolute;
 }
 
 /*# sourceMappingURL=style.css.map */
