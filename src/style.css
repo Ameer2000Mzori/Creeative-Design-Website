@@ -106,22 +106,22 @@ body {
 .header-Deco .header-Deco-1 {
   position: absolute;
   background-color: rgba(50, 231, 255, 0.8);
-  width: 2000px;
-  height: 2000px;
+  width: 2050px;
+  height: 2050px;
   top: -100rem;
   z-index: -2;
-  animation: headerDeco 25s infinite linear; /* Adjust the duration as needed */
-  border-radius: 1100px 800px 1100px;
+  animation: headerDeco 25s infinite linear;
+  border-radius: 1350px 1400px 1200px;
 }
 .header-Deco .header-Deco-2 {
   position: absolute;
   background-color: rgba(50, 231, 255, 0.1);
-  width: 1800px;
-  height: 1800px;
+  width: 1950px;
+  height: 1950px;
   top: -85rem;
   z-index: -3;
-  animation: headerDeco 25s infinite linear; /* Adjust the duration as needed */
-  border-radius: 950px 1100px 800px;
+  animation: headerDeco 25s infinite linear;
+  border-radius: 1050px 1200px 1150px;
 }
 
 @keyframes headerDeco {
