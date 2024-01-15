@@ -109,33 +109,19 @@ body {
 //header-Deco
 .header-Deco {
   position: absolute;
-  height: 100%;
   width: 100%;
-  top: 0;
-  left: 0;
+  height: 100%;
+  top: 0%;
+  left: 50%;
+  transform: translate(-50%);
   z-index: -1;
-
-  .header-Deco-1 {
-    position: absolute;
-    background-color: aqua;
-    height: 100%;
-    top: -65%;
-    border-radius: 65%;
-    width: 100%;
-    z-index: -2;
-  }
-
-  .header-Deco-2 {
-    position: absolute;
-    background-color: rgba(11, 194, 194, 0.527);
-    height: 100%;
-    top: -55%;
-    border-radius: 85%;
-    width: 90%;
-    z-index: -3;
-  }
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
 }
-
 // header
 .header {
   height: 100vh;
