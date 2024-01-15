@@ -204,7 +204,7 @@ body {
 }
 .customers {
   margin-top: 5rem;
-  height: 120vh;
+  height: 1500px;
   text-align: center;
   align-items: center;
   justify-content: center;
@@ -240,6 +240,7 @@ body {
   text-shadow: 2rem 2rem 4rem #aaa;
 }
 .customers .customers-Wrap .customers-Bottom {
+  margin-top: 5rem;
   height: 75%;
   width: 100%;
   text-align: center;
@@ -256,7 +257,10 @@ body {
   text-align: center;
   align-items: center;
   justify-content: space-evenly;
-  gap: 5rem;
+  gap: 1rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  flex-wrap: wrap;
 }
 .customers .customers-Wrap .customers-Bottom .customers-Bottom-Cards-Wrap .customers-Card {
   width: 320px;
