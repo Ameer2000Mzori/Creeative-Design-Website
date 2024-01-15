@@ -602,6 +602,25 @@ body {
             height: 50%;
             width: 100%;
             border-radius: 15px;
+
+            .team-Card-Img {
+              width: 100%;
+              height: 100%;
+              object-fit: cover;
+            }
+          }
+
+          .team-Card-Page-1-Name-Wrap {
+            text-align: start;
+            .team-Card-Name {
+              font-weight: 600;
+              font-family: $fontOne;
+              font-size: 1.5rem;
+
+              .team-Card-Role {
+                font-weight: 400;
+              }
+            }
           }
         }
 
