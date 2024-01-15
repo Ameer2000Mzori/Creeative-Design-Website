@@ -32,21 +32,15 @@ class ShowCustomersCard {
   }
 
   showData() {
+    // create element to count change dynamiclly classes and icons
     let className;
     let classStar;
-    // testing the indexNum
-    console.log(this.text, this.img, this.customersName, this.indexNum);
+    // if else es6 type
     this.indexNum === 0
-      ? (className = "Top")
+      ? ((className = "Top"), (classStar = `fa-solid fa-star-half-stroke`))
       : this.indexNum === 2
-      ? (className = "Bottom")
-      : (className = "");
-
-    this.indexNum === 0
-      ? (className = "Top")
-      : this.indexNum === 2
-      ? (className = "Bottom")
-      : (className = "");
+      ? ((className = "Bottom"), (classStar = `fa-regular fa-star`))
+      : ((className = ""), (classStar = `fa-solid fa-star`));
 
     // creating elements
     const customersCard = document.createElement("div");
@@ -59,14 +53,14 @@ class ShowCustomersCard {
     <h1 class="customers-Card-Text-2">${this.text}</h1>
   </div>
   <div class="customers-Rate-Img-Name-Wrap">
-    <div class="customers-Rate-Wrap">
-      <i id="customers-Icon-Star" class="fa-solid fa-star"></i>
-      <i id="customers-Icon-Star" class="fa-solid fa-star"></i>
-      <i id="customers-Icon-Star" class="fa-solid fa-star"></i>
-      <i id="customers-Icon-Star" class="fa-solid fa-star"></i>
-      <i id="customers-Icon-Star" class="fa-regular fa-star"></i>
-    </div>
-    <img
+  <div class="customers-Rate-Wrap">
+  <i id="customers-Icon-Star" class="fa-solid fa-star"></i>
+  <i id="customers-Icon-Star" class="fa-solid fa-star"></i>
+  <i id="customers-Icon-Star" class="fa-solid fa-star"></i>
+  <i id="customers-Icon-Star" class="fa-solid fa-star"></i>
+  <i id="customers-Icon-Star" class="${classStar}"></i>
+  </div>
+  <img
       class="customers-Card-Profile-Img"
       src="${this.img}"
       alt=""
