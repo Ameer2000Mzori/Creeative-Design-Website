@@ -502,6 +502,17 @@ body {
   align-items: center;
   justify-content: space-between;
 }
+.team .team-Wrap .team-Bottom-Cards-Wrap .team-Card .team-Card-Page-1 .team-Card-Page-1-Btn-Wrap .team-Card-Page-1-Btn {
+  height: 30px;
+  width: 130px;
+  border-radius: 15px;
+  color: #eee;
+  font-family: "Roboto", sans-serif;
+  background-color: #f08e0f;
+  font-size: 1rem;
+  border: none;
+  cursor: pointer;
+}
 .team .team-Wrap .team-Bottom-Cards-Wrap .team-Card .team-Card-Btn {
   position: absolute;
   top: -15px;

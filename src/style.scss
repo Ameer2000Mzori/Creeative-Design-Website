@@ -645,6 +645,18 @@ body {
             text-align: center;
             align-items: center;
             justify-content: space-between;
+
+            .team-Card-Page-1-Btn {
+              height: 30px;
+              width: 130px;
+              border-radius: 15px;
+              color: #eee;
+              font-family: $fontOne;
+              background-color: #f08e0f;
+              font-size: 1rem;
+              border: none;
+              cursor: pointer;
+            }
           }
         }
 
