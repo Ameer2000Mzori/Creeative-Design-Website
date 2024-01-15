@@ -398,5 +398,15 @@ body {
   justify-content: center;
   flex-direction: column;
 }
+.team .team-Wrap {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  height: 90%;
+  width: 90%;
+}
 
 /*# sourceMappingURL=style.css.map */
