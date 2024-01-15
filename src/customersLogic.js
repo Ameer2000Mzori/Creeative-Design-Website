@@ -15,7 +15,8 @@ const DataObject = [
 
 // class
 class ShowCustomersCard {
-  construction(Deco, text, img, customersName) {
+  construction(indexNum, Deco, text, img, customersName) {
+    this.indexNum = indexNum;
     this.Deco = Deco;
     this.text = text;
     this.img = img;
