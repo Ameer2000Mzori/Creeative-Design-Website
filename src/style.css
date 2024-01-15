@@ -21,19 +21,23 @@ body {
   text-align: center;
   align-items: center;
 }
+.navbar .navbar-Wrap .navbar-Links {
+  width: 60%;
+  height: 100%;
+  padding-top: 15px;
+}
 .navbar .navbar-Wrap .navbar-Links ul {
   display: flex;
   flex-direction: row;
   text-align: center;
-  align-items: center;
+  align-items: start;
   justify-content: space-evenly;
   gap: 5rem;
+  width: 100%;
+  height: 90%;
   list-style: none;
   padding: 0;
   margin: 0;
-}
-.navbar .navbar-Wrap .navbar-Links ul li {
-  padding: 1rem;
 }
 
 /*# sourceMappingURL=style.css.map */
