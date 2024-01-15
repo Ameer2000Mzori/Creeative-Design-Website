@@ -49,23 +49,23 @@ class ShowCustomersCard {
     // adding data dynamiclly
     customersCard.innerHTML = `
     <div class="customers-Text-Wrap">
-    <i id="customers-Card-Text-Icon" class="fas fa-quote-left"></i>
-    <h1 class="customers-Card-Text-2">${this.text}</h1>
-  </div>
-  <div class="customers-Rate-Img-Name-Wrap">
-  <div class="customers-Rate-Wrap">
-  <i id="customers-Icon-Star" class="fa-solid fa-star"></i>
-  <i id="customers-Icon-Star" class="fa-solid fa-star"></i>
-  <i id="customers-Icon-Star" class="fa-solid fa-star"></i>
-  <i id="customers-Icon-Star" class="fa-solid fa-star"></i>
-  <i id="customers-Icon-Star" class="${classStar}"></i>
-  </div>
+       <i id="customers-Card-Text-Icon" class="fas fa-quote-left"></i>
+       <h1 class="customers-Card-Text-2">${this.text}</h1>
+    </div>
+    <div class="customers-Rate-Img-Name-Wrap">
+    <div class="customers-Rate-Wrap">
+      <i id="customers-Icon-Star" class="fa-solid fa-star"></i>
+      <i id="customers-Icon-Star" class="fa-solid fa-star"></i>
+      <i id="customers-Icon-Star" class="fa-solid fa-star"></i>
+      <i id="customers-Icon-Star" class="fa-solid fa-star"></i>
+      <i id="customers-Icon-Star" class="${classStar}"></i>
+    </div>
   <img
       class="customers-Card-Profile-Img"
       src="${this.img}"
       alt=""
     />
-    <h2 class="customers-Card-Name">${this.customersName}</h2>
+      <h2 class="customers-Card-Name">${this.customersName}</h2>
   </div>`;
 
     // appending data
