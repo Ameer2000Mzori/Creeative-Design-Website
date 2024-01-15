@@ -622,6 +622,14 @@ body {
               }
             }
           }
+
+          .team-Card-Lang-Wrap {
+            display: flex;
+            flex-direction: row;
+            text-align: center;
+            align-items: center;
+            justify-content: space-between;
+          }
         }
 
         .team-Card-Btn {
