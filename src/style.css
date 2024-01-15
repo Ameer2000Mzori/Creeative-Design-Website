@@ -419,5 +419,15 @@ body {
   justify-content: center;
   flex-direction: column;
 }
+.team .team-Wrap .team-Top .team-Top-Text-1 {
+  font-size: 10rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: "Bellota Text", cursive;
+  color: #999;
+  text-align: center;
+  opacity: 0.1;
+  text-shadow: 2rem 2rem 4rem #aaa;
+}
 
 /*# sourceMappingURL=style.css.map */
