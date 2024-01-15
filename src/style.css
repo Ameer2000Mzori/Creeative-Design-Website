@@ -451,6 +451,14 @@ body {
   height: 100%;
   width: 100%;
 }
+.team .team-Wrap .team-Bottom-Cards-Wrap .team-Card .team-Card-Btn {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
 .team .team-Wrap .team-Bottom-Cards-Wrap .team-Card .team-Card-Page-2 {
   display: none;
 }
