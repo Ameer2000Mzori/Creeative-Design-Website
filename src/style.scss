@@ -258,7 +258,7 @@ body {
 // customers
 .customers {
   margin-top: 5rem;
-  height: 1500px;
+  height: 130vh;
   text-align: center;
   align-items: center;
   justify-content: center;
@@ -409,7 +409,11 @@ body {
     height: 2200px;
 
     .customers-Wrap {
+      height: 100%;
+      width: 95%;
+      justify-content: start;
       .customers-Top {
+        height: 10%;
         .customers-Top-Text-1 {
           font-size: 8rem;
         }
@@ -444,8 +448,6 @@ body {
 @media screen and (max-width: 1060px) {
   // customers
   .customers {
-    height: 2500px;
-
     .customers-Wrap {
       .customers-Top {
         .customers-Top-Text-1 {
@@ -480,5 +482,40 @@ body {
   }
 }
 @media screen and (max-width: 768px) {
-  // 1260px
+  // customers
+  .customers {
+    .customers-Wrap {
+      .customers-Top {
+        .customers-Top-Text-1 {
+          font-size: 3.2rem;
+        }
+      }
+
+      .customers-Bottom {
+        .customers-Bottom-Cards-Wrap {
+          gap: 1rem;
+          .customers-Card {
+            margin-top: 1rem;
+            .customers-Text-Wrap {
+              #customers-Card-Text-Icon {
+                font-size: 1.5rem;
+              }
+
+              .customers-Card-Text-2 {
+                font-size: 0.9rem;
+              }
+            }
+
+            .customers-Rate-Img-Name-Wrap {
+              .customers-Rate-Wrap {
+                #customers-Icon-Star {
+                  font-size: 0.9rem;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
 }

@@ -204,7 +204,7 @@ body {
 }
 .customers {
   margin-top: 5rem;
-  height: 1500px;
+  height: 130vh;
   text-align: center;
   align-items: center;
   justify-content: center;
@@ -334,6 +334,14 @@ body {
   .customers {
     height: 2200px;
   }
+  .customers .customers-Wrap {
+    height: 100%;
+    width: 95%;
+    justify-content: start;
+  }
+  .customers .customers-Wrap .customers-Top {
+    height: 10%;
+  }
   .customers .customers-Wrap .customers-Top .customers-Top-Text-1 {
     font-size: 8rem;
   }
@@ -348,9 +356,6 @@ body {
   }
 }
 @media screen and (max-width: 1060px) {
-  .customers {
-    height: 2500px;
-  }
   .customers .customers-Wrap .customers-Top .customers-Top-Text-1 {
     font-size: 6rem;
   }
@@ -362,6 +367,26 @@ body {
   }
   .customers .customers-Wrap .customers-Bottom .customers-Bottom-Cards-Wrap .customers-Card .customers-Rate-Img-Name-Wrap .customers-Rate-Wrap #customers-Icon-Star {
     font-size: 1rem;
+  }
+}
+@media screen and (max-width: 768px) {
+  .customers .customers-Wrap .customers-Top .customers-Top-Text-1 {
+    font-size: 3.2rem;
+  }
+  .customers .customers-Wrap .customers-Bottom .customers-Bottom-Cards-Wrap {
+    gap: 1rem;
+  }
+  .customers .customers-Wrap .customers-Bottom .customers-Bottom-Cards-Wrap .customers-Card {
+    margin-top: 1rem;
+  }
+  .customers .customers-Wrap .customers-Bottom .customers-Bottom-Cards-Wrap .customers-Card .customers-Text-Wrap #customers-Card-Text-Icon {
+    font-size: 1.5rem;
+  }
+  .customers .customers-Wrap .customers-Bottom .customers-Bottom-Cards-Wrap .customers-Card .customers-Text-Wrap .customers-Card-Text-2 {
+    font-size: 0.9rem;
+  }
+  .customers .customers-Wrap .customers-Bottom .customers-Bottom-Cards-Wrap .customers-Card .customers-Rate-Img-Name-Wrap .customers-Rate-Wrap #customers-Icon-Star {
+    font-size: 0.9rem;
   }
 }
 
