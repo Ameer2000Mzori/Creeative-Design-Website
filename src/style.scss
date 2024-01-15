@@ -412,8 +412,10 @@ body {
       height: 100%;
       width: 95%;
       justify-content: start;
+
       .customers-Top {
         height: 10%;
+
         .customers-Top-Text-1 {
           font-size: 8rem;
         }
@@ -445,6 +447,7 @@ body {
     }
   }
 }
+
 @media screen and (max-width: 1060px) {
   // customers
   .customers {
@@ -481,6 +484,7 @@ body {
     }
   }
 }
+
 @media screen and (max-width: 768px) {
   // customers
   .customers {
@@ -494,8 +498,10 @@ body {
       .customers-Bottom {
         .customers-Bottom-Cards-Wrap {
           gap: 1rem;
+
           .customers-Card {
             margin-top: 1rem;
+
             .customers-Text-Wrap {
               #customers-Card-Text-Icon {
                 font-size: 1.5rem;
