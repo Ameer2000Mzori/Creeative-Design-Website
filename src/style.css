@@ -21,5 +21,15 @@ body {
   text-align: center;
   align-items: center;
 }
+.navbar .navbar-Wrap .navbar-Links ul {
+  display: flex;
+  flex-direction: row;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
 
 /*# sourceMappingURL=style.css.map */
