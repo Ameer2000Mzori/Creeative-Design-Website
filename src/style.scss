@@ -363,6 +363,13 @@ body {
             display: flex;
             flex-direction: column;
             justify-content: space-evenly;
+
+            .customers-Rate-Wrap {
+              #customers-Icon-Star {
+                color: #f08e0f;
+                font-size: 1.5rem;
+              }
+            }
           }
         }
       }
