@@ -442,7 +442,42 @@ body {
   }
 }
 @media screen and (max-width: 1060px) {
-  // 1060px
+  // customers
+  .customers {
+    height: 2500px;
+
+    .customers-Wrap {
+      .customers-Top {
+        .customers-Top-Text-1 {
+          font-size: 6rem;
+        }
+      }
+
+      .customers-Bottom {
+        .customers-Bottom-Cards-Wrap {
+          .customers-Card {
+            .customers-Text-Wrap {
+              #customers-Card-Text-Icon {
+                font-size: 2rem;
+              }
+
+              .customers-Card-Text-2 {
+                font-size: 0.9rem;
+              }
+            }
+
+            .customers-Rate-Img-Name-Wrap {
+              .customers-Rate-Wrap {
+                #customers-Icon-Star {
+                  font-size: 1rem;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
 }
 @media screen and (max-width: 768px) {
   // 1260px
