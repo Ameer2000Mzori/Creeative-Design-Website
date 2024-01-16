@@ -91,6 +91,10 @@ class ShowTeamData {
 }
 
 // function // event
-for (let [keys, values] of Object.entries(teamDataObj)) {
-  console.log(keys, values);
+for (let key of Object.values(teamDataObj)) {
+  key.forEach((userData, index) => {
+    // console.log(userData);
+    let newShowTeamData = new ShowTeamData(userData);
+    newShowTeamData.showData();
+  });
 }
