@@ -533,7 +533,6 @@ body {
   text-align: center;
   align-items: center;
   justify-content: center;
-  flex-direction: column;
 
   .team-Wrap {
     display: flex;
@@ -541,7 +540,6 @@ body {
     text-align: center;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
     height: 90%;
     width: 90%;
 
@@ -551,10 +549,7 @@ body {
       text-align: center;
       display: flex;
       flex-direction: column;
-      text-align: center;
-      align-items: center;
       justify-content: center;
-      flex-direction: column;
 
       .team-Top-Text-1 {
         font-size: 10rem;
@@ -576,8 +571,6 @@ body {
       text-align: center;
       display: flex;
       flex-direction: row;
-      text-align: center;
-      align-items: center;
       justify-content: center;
       gap: 5rem;
 
@@ -587,7 +580,6 @@ body {
         position: relative;
         width: 320px;
         height: 450px;
-        padding: 5px;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -615,6 +607,7 @@ body {
 
           .team-Card-Page-1-Name-Wrap {
             text-align: start;
+
             .team-Card-Name {
               font-weight: 600;
               font-family: $fontOne;
@@ -686,9 +679,11 @@ body {
             transition: all 500ms ease-in-out;
             transform: rotate(0deg);
           }
+
           &:hover {
             cursor: pointer;
           }
+
           .team-Card-Btn-Line.active {
             transform: rotate(-1000deg);
           }
@@ -752,6 +747,7 @@ body {
 @media screen and (max-width: 1350px) {
   .team {
     height: 2000px;
+
     .team-Wrap {
       .team-Top {
         .team-Top-Text-1 {
@@ -790,6 +786,7 @@ body {
 
             .team-Card-Page-1-Name-Wrap {
               text-align: start;
+
               .team-Card-Name {
                 font-size: 1.4rem;
               }
@@ -816,6 +813,7 @@ body {
     }
   }
 }
+
 @media screen and (max-width: 1050px) {
   .team {
     height: 2600px;
