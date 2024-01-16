@@ -3,6 +3,8 @@ const teamBottomCardsWrap = document.getElementsByClassName(
   "team-Bottom-Cards-Wrap"
 )[0];
 
+// join method for our tools arry
+
 // global varibales
 const teamDataObj = {
   images: [
@@ -40,6 +42,11 @@ class ShowTeamData {
     const teamCard = document.createElement("div");
     teamCard.classList.add("team-Card");
 
+    // using .map for looping over the data of this.tool to create same amount of P elements
+    const langTexts = this.tool
+      .map((tool) => `<p class="team-Card-Lnag-Text">${tool}</p>`)
+      .join("");
+
     // inserting the cards data
     teamCard.innerHTML = `
 
@@ -62,11 +69,7 @@ class ShowTeamData {
       </div>
 
       <div class="team-Card-Lang-Wrap">
-        <p class="team-Card-Lnag-Text">${this.tool[0]}</p>
-        <p class="team-Card-Lnag-Text">${this.tool[1]}</p>
-        <p class="team-Card-Lnag-Text">${this.tool[2]}</p>
-        <p class="team-Card-Lnag-Text">${this.tool[3]}</p>
-        <p class="team-Card-Lnag-Text">${this.tool[4]}</p>
+      ${langTexts}
       </div>
 
       <div class="team-Card-Page-1-Btn-Wrap">
