@@ -704,9 +704,15 @@ body {
           height: 100%;
           width: 100%;
           position: absolute;
-          background-color: red;
+          background-color: rgba(253, 69, 69, 0.9);
           top: 0;
           right: 0;
+
+          .team-card-Page-2-Text-1 {
+            color: white;
+            font-family: $fontThree;
+            font-size: 3rem;
+          }
         }
 
         &:hover {
