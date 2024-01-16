@@ -689,6 +689,9 @@ body {
           &:hover {
             cursor: pointer;
           }
+          .team-Card-Btn-Line.active {
+            transform: rotate(-1000deg);
+          }
         }
 
         .team-Card-Page-2 {
@@ -734,10 +737,6 @@ body {
       //  our active classes
       .team-Card.active {
         opacity: 1;
-      }
-
-      .team-Card-Btn-Line.active {
-        transform: rotate(-300deg);
       }
 
       .team-Card-Page-2.active {

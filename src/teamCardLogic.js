@@ -13,7 +13,13 @@ const teamCardBtnLine = document.querySelectorAll(".team-Card-Btn-Line");
 // global variables
 
 // functions
-const openUserCard = (index) => {
+const openUserCard = (e, index) => {
+  if (e.target) {
+    console.log(e.target, "true");
+  } else {
+    console.log(e.target, "false");
+  }
+
   console.log(index);
   // team card
   teamCard.forEach((card) => {
@@ -40,5 +46,5 @@ const openUserCard = (index) => {
 
 // events
 teamCardBtns.forEach((cardBtn, index) => {
-  cardBtn.addEventListener("click", () => openUserCard(index));
+  cardBtn.addEventListener("click", (e) => openUserCard(e, index));
 });
