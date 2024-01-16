@@ -662,11 +662,23 @@ body {
 
         .team-Card-Btn {
           position: absolute;
+          display: flex;
+          flex-direction: column;
+          text-align: center;
+          align-items: center;
+          justify-content: center;
           top: -5px;
           right: -5px;
           height: 40px;
           width: 40px;
           border-radius: 50%;
+          background-color: red;
+
+          .team-Card-Btn-Line {
+            width: 20px;
+            height: 1px;
+            background-color: white;
+          }
         }
 
         .team-Card-Page-2 {
