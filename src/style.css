@@ -563,26 +563,27 @@ body {
   color: white;
   font-family: "Bellota Text", cursive;
   font-size: 3rem;
+  padding: 0;
+  margin: 0;
 }
 .team .team-Wrap .team-Bottom-Cards-Wrap .team-Card .team-Card-Page-2 .team-card-Page-2-Text-2 {
   color: white;
   font-family: "Bellota Text", cursive;
-  font-size: 1.2rem;
+  font-size: 0.9rem;
   letter-spacing: 5px;
+  padding: 0;
+  margin: 0;
 }
 .team .team-Wrap .team-Bottom-Cards-Wrap .team-Card:hover {
   opacity: 1;
 }
-
-.team-Card.active {
+.team .team-Wrap .team-Bottom-Cards-Wrap .team-Card.active {
   opacity: 1;
 }
-
-.team-Card-Btn-Line.active {
+.team .team-Wrap .team-Bottom-Cards-Wrap .team-Card-Btn-Line.active {
   transform: rotate(-300deg);
 }
-
-.team-Card-Page-2.active {
+.team .team-Wrap .team-Bottom-Cards-Wrap .team-Card-Page-2.active {
   height: 100%;
   width: 100%;
   opacity: 1;

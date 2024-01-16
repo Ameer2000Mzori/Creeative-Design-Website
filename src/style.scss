@@ -713,13 +713,17 @@ body {
             color: white;
             font-family: $fontThree;
             font-size: 3rem;
+            padding: 0;
+            margin: 0;
           }
 
           .team-card-Page-2-Text-2 {
             color: white;
             font-family: $fontThree;
-            font-size: 1.2rem;
+            font-size: 0.9rem;
             letter-spacing: 5px;
+            padding: 0;
+            margin: 0;
           }
         }
 
@@ -727,22 +731,21 @@ body {
           opacity: 1;
         }
       }
+      //  our active classes
+      .team-Card.active {
+        opacity: 1;
+      }
+
+      .team-Card-Btn-Line.active {
+        transform: rotate(-300deg);
+      }
+
+      .team-Card-Page-2.active {
+        height: 100%;
+        width: 100%;
+        opacity: 1;
+        border-radius: 0%;
+      }
     }
   }
-}
-
-//  our active classes
-.team-Card.active {
-  opacity: 1;
-}
-
-.team-Card-Btn-Line.active {
-  transform: rotate(-300deg);
-}
-
-.team-Card-Page-2.active {
-  height: 100%;
-  width: 100%;
-  opacity: 1;
-  border-radius: 0%;
 }
