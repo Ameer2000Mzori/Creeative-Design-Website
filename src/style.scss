@@ -673,11 +673,21 @@ body {
           width: 40px;
           border-radius: 50%;
           background-color: red;
+          transition: all 500 ease-in-out;
 
           .team-Card-Btn-Line {
             width: 20px;
             height: 1px;
             background-color: white;
+            transition: all 500 ease-in-out;
+            transform: rotate(0deg);
+          }
+
+          &:hover {
+            cursor: pointer;
+            .team-Card-Btn-Line {
+              transform: rotate(-350deg);
+            }
           }
         }
 

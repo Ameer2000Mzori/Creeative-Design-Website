@@ -526,11 +526,20 @@ body {
   width: 40px;
   border-radius: 50%;
   background-color: red;
+  transition: all 500 ease-in-out;
 }
 .team .team-Wrap .team-Bottom-Cards-Wrap .team-Card .team-Card-Btn .team-Card-Btn-Line {
   width: 20px;
   height: 1px;
   background-color: white;
+  transition: all 500 ease-in-out;
+  transform: rotate(0deg);
+}
+.team .team-Wrap .team-Bottom-Cards-Wrap .team-Card .team-Card-Btn:hover {
+  cursor: pointer;
+}
+.team .team-Wrap .team-Bottom-Cards-Wrap .team-Card .team-Card-Btn:hover .team-Card-Btn-Line {
+  transform: rotate(-350deg);
 }
 .team .team-Wrap .team-Bottom-Cards-Wrap .team-Card .team-Card-Page-2 {
   display: none;
