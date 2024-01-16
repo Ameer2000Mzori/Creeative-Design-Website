@@ -36,13 +36,11 @@ class ShowTeamData {
   }
 
   showData() {
+    // creating element dynamiclly
     const teamCard = document.createElement("div");
     teamCard.classList.add("team-Card");
-    let userToolsCount;
-    for (let i = 0; i < this.tool.length; i++) {
-      userToolsCount = this.tool[i];
-      console.log(userToolsCount);
-    }
+
+    // inserting the cards data
     teamCard.innerHTML = `
 
     <!--Page Lader 1-->
@@ -64,11 +62,11 @@ class ShowTeamData {
       </div>
 
       <div class="team-Card-Lang-Wrap">
-        <p class="team-Card-Lnag-Text">${userToolsCount}</p>
-        <p class="team-Card-Lnag-Text">${userToolsCount}</p>
-        <p class="team-Card-Lnag-Text">${userToolsCount}</p>
-        <p class="team-Card-Lnag-Text">${userToolsCount}</p>
-        <p class="team-Card-Lnag-Text">${userToolsCount}</p>
+        <p class="team-Card-Lnag-Text">${this.tool[0]}</p>
+        <p class="team-Card-Lnag-Text">${this.tool[1]}</p>
+        <p class="team-Card-Lnag-Text">${this.tool[2]}</p>
+        <p class="team-Card-Lnag-Text">${this.tool[3]}</p>
+        <p class="team-Card-Lnag-Text">${this.tool[4]}</p>
       </div>
 
       <div class="team-Card-Page-1-Btn-Wrap">
@@ -91,11 +89,12 @@ class ShowTeamData {
       </p>
     </div>
 `;
-
+    // appending
     teamBottomCardsWrap.appendChild(teamCard);
   }
 }
 
+// for loop of each of data in our object of arrays
 let { images, names, role, tool, aboutText } = teamDataObj;
 for (let i = 0; i < images.length; i++) {
   let newShowTeamData = new ShowTeamData(
