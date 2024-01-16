@@ -10,12 +10,18 @@ const teamDataObj = {
     "./assets/team-member-2.jpg",
     "./assets/team-member-3.jpg",
   ],
-  name: ["Nick Smith", "Bob Brown", "John Doe"],
+  names: ["Nick Smith", "Bob Brown", "John Doe"],
   role: ["Designer", "Designer", "Developer"],
-  aboutText: [
+  tool: [
     ["Ps", "Figma", "HTML5", "CSS3", "Ai"],
     ["Ae", "Pr", "HTML5", "CSS3", "Inkscape"],
     ["JavaScript", "ReactJS", "NodeJS", "MongoDB", "Python"],
+  ],
+
+  aboutText: [
+    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit obcaecati blanditiis aspernatur ab doloribus optio nesciunt adipisci fugiat quia veritatis doloremque tempore ipsum sunt atque exercitationem perspiciatis, beatae aliquam voluptates perferendis. Doloribus exercitationem adipisci, quidem veritatis temporibus magni. Sunt, exercitationem?",
+    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit obcaecati blanditiis aspernatur ab doloribus optio nesciunt adipisci fugiat quia veritatis doloremque tempore ipsum sunt atque exercitationem perspiciatis, beatae aliquam voluptates perferendis. Doloribus exercitationem adipisci, quidem veritatis temporibus magni. Sunt, exercitationem?",
+    "Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit obcaecati blanditiis aspernatur ab doloribus optio nesciunt adipisci fugiat quia veritatis doloremque tempore ipsum sunt atque exercitationem perspiciatis, beatae aliquam voluptates perferendis. Doloribus exercitationem adipisci, quidem veritatis temporibus magni. Sunt, exercitationem?",
   ],
 };
 
