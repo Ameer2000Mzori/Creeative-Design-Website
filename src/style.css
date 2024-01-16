@@ -436,11 +436,11 @@ body {
   width: 100%;
   text-align: center;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   text-align: center;
   align-items: center;
   justify-content: center;
-  flex-direction: column;
+  gap: 5rem;
 }
 .team .team-Wrap .team-Bottom-Cards-Wrap .team-Card {
   background-color: #fffeee;

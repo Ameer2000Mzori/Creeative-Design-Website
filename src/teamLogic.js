@@ -38,33 +38,37 @@ class ShowTeamData {
   showData() {
     const teamCard = document.createElement("div");
     teamCard.classList.add("team-Card");
-
+    let userToolsCount;
+    for (let i = 0; i < this.tool.length; i++) {
+      userToolsCount = this.tool[i];
+      console.log(userToolsCount);
+    }
     teamCard.innerHTML = `
-    <div class="team-Card">
+
     <!--Page Lader 1-->
     <div class="team-Card-Page-1">
       <!--  -->
       <div class="team-Card-Page-1-Img-Wrap">
         <img
           class="team-Card-Img"
-          src="./assets/team-member-1.jpg"
+          src="${this.images}"
           alt=""
         />
       </div>
 
       <div class="team-Card-Page-1-Name-Wrap">
         <h1 class="team-Card-Name">
-          Nick Smith
-          <span class="team-Card-Role">(Designer)</span>
+         ${this.names}
+          <span class="team-Card-Role">(${this.role})</span>
         </h1>
       </div>
 
       <div class="team-Card-Lang-Wrap">
-        <p class="team-Card-Lnag-Text">Ps</p>
-        <p class="team-Card-Lnag-Text">Figma</p>
-        <p class="team-Card-Lnag-Text">HTML5</p>
-        <p class="team-Card-Lnag-Text">CSS3</p>
-        <p class="team-Card-Lnag-Text">Ai</p>
+        <p class="team-Card-Lnag-Text">${userToolsCount}</p>
+        <p class="team-Card-Lnag-Text">${userToolsCount}</p>
+        <p class="team-Card-Lnag-Text">${userToolsCount}</p>
+        <p class="team-Card-Lnag-Text">${userToolsCount}</p>
+        <p class="team-Card-Lnag-Text">${userToolsCount}</p>
       </div>
 
       <div class="team-Card-Page-1-Btn-Wrap">
@@ -86,15 +90,20 @@ class ShowTeamData {
         voluptate voluptates consectetur facilis!
       </p>
     </div>
-  </div>`;
+`;
+
+    teamBottomCardsWrap.appendChild(teamCard);
   }
 }
 
-// function // event
-for (let key of Object.values(teamDataObj)) {
-  key.forEach((userData, index) => {
-    // console.log(userData);
-    let newShowTeamData = new ShowTeamData(userData);
-    newShowTeamData.showData();
-  });
+let { images, names, role, tool, aboutText } = teamDataObj;
+for (let i = 0; i < images.length; i++) {
+  let newShowTeamData = new ShowTeamData(
+    images[i],
+    names[i],
+    role[i],
+    tool[i],
+    aboutText[i]
+  );
+  newShowTeamData.showData();
 }
