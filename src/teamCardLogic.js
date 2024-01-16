@@ -45,6 +45,27 @@ const openUserCard = (e, index) => {
 };
 
 // events
-teamCardBtns.forEach((cardBtn, index) => {
-  cardBtn.addEventListener("click", (e) => openUserCard(e, index));
+
+window.addEventListener("click", (e) => {
+  if (e.target.className === "team-Card-Btn") {
+    console.log("true");
+    teamCardBtns.forEach((cardBtn, index) => {
+      cardBtn.addEventListener("click", (e) => openUserCard(e, index));
+    });
+  } else {
+    console.log("false");
+    teamCard.forEach((card) => {
+      card.classList.remove("active");
+    });
+
+    // team pege 2
+    teamCardPage2.forEach((card2) => {
+      card2.classList.remove("active");
+    });
+
+    // btn line
+    teamCardBtnLine.forEach((btnLine) => {
+      btnLine.classList.remove("active");
+    });
+  }
 });
