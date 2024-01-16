@@ -698,7 +698,7 @@ body {
           display: flex;
           flex-direction: column;
           padding: 5px;
-          text-align: start;
+          text-align: center;
           align-items: center;
           justify-content: space-evenly;
           height: 100%;
@@ -712,6 +712,13 @@ body {
             color: white;
             font-family: $fontThree;
             font-size: 3rem;
+          }
+
+          .team-card-Page-2-Text-2 {
+            color: white;
+            font-family: $fontThree;
+            font-size: 1.2rem;
+            letter-spacing: 5px;
           }
         }
 

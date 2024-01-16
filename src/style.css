@@ -547,7 +547,7 @@ body {
   display: flex;
   flex-direction: column;
   padding: 5px;
-  text-align: start;
+  text-align: center;
   align-items: center;
   justify-content: space-evenly;
   height: 100%;
@@ -561,6 +561,12 @@ body {
   color: white;
   font-family: "Bellota Text", cursive;
   font-size: 3rem;
+}
+.team .team-Wrap .team-Bottom-Cards-Wrap .team-Card .team-Card-Page-2 .team-card-Page-2-Text-2 {
+  color: white;
+  font-family: "Bellota Text", cursive;
+  font-size: 1.2rem;
+  letter-spacing: 5px;
 }
 .team .team-Wrap .team-Bottom-Cards-Wrap .team-Card:hover {
   opacity: 1;
