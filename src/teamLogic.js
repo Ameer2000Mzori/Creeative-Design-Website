@@ -49,8 +49,6 @@ class ShowTeamData {
 
     // inserting the cards data
     teamCard.innerHTML = `
-
-    <!--Page Lader 1-->
     <div class="team-Card-Page-1">
       <!--  -->
       <div class="team-Card-Page-1-Img-Wrap">
@@ -60,28 +58,22 @@ class ShowTeamData {
           alt=""
         />
       </div>
-
       <div class="team-Card-Page-1-Name-Wrap">
         <h1 class="team-Card-Name">
          ${this.names}
           <span class="team-Card-Role">(${this.role})</span>
         </h1>
       </div>
-
       <div class="team-Card-Lang-Wrap">
       ${langTexts}
       </div>
-
       <div class="team-Card-Page-1-Btn-Wrap">
         <button class="team-Card-Page-1-Btn">Projects</button>
       </div>
     </div>
-    <!-- Page Lader 2 -->
     <div class="team-Card-Btn">
       <div class="team-Card-Btn-Line"></div>
     </div>
-
-    <!-- Page Lader 3 -->
     <div class="team-Card-Page-2">
       <h1 class="team-card-Page-2-Text-1">About me</h1>
       <p class="team-card-Page-2-Text-2">
