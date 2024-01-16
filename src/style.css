@@ -521,13 +521,14 @@ body {
   text-align: center;
   align-items: center;
   justify-content: center;
-  top: -5px;
-  right: -5px;
+  top: -6px;
+  right: -6px;
   height: 40px;
   width: 40px;
   border-radius: 50%;
   background-color: #222;
   transition: all 500 ease-in-out;
+  z-index: 2;
 }
 .team .team-Wrap .team-Bottom-Cards-Wrap .team-Card .team-Card-Btn .team-Card-Btn-Line {
   width: 20px;
@@ -543,7 +544,18 @@ body {
   transform: rotate(-300deg);
 }
 .team .team-Wrap .team-Bottom-Cards-Wrap .team-Card .team-Card-Page-2 {
-  display: none;
+  display: flex;
+  flex-direction: column;
+  padding: 5px;
+  text-align: start;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background-color: red;
+  top: 0;
+  right: 0;
 }
 .team .team-Wrap .team-Bottom-Cards-Wrap .team-Card:hover {
   opacity: 1;
