@@ -534,6 +534,7 @@ body {
   align-items: center;
   justify-content: center;
   flex-direction: column;
+
   .team-Wrap {
     display: flex;
     flex-direction: column;
@@ -593,6 +594,7 @@ body {
         border-radius: 0.5rem;
         transition: box-shadow 0.5s;
         padding: 1rem 1rem 2rem 1rem;
+        opacity: 0.7;
 
         .team-Card-Page-1 {
           height: 100%;
@@ -672,21 +674,21 @@ body {
           height: 40px;
           width: 40px;
           border-radius: 50%;
-          background-color: red;
+          background-color: #222;
           transition: all 500 ease-in-out;
 
           .team-Card-Btn-Line {
             width: 20px;
             height: 1px;
             background-color: white;
-            transition: all 500 ease-in-out;
+            transition: all 500ms ease-in-out;
             transform: rotate(0deg);
           }
 
           &:hover {
             cursor: pointer;
             .team-Card-Btn-Line {
-              transform: rotate(-350deg);
+              transform: rotate(-300deg);
             }
           }
         }
@@ -695,24 +697,8 @@ body {
           display: none;
         }
 
-        &:before {
-          position: absolute;
-          height: 100%;
-          width: 100%;
-          background-color: rgba(255, 255, 255, 0.288);
-          z-index: 1;
-          content: "";
-          top: -0px;
-          right: -0px;
-          transition: all 250ms ease-in-out;
-        }
-
         &:hover {
-          &:before {
-            height: 0%;
-            width: 0%;
-            z-index: 1;
-          }
+          opacity: 1;
         }
       }
     }
