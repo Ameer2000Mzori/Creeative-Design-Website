@@ -540,22 +540,23 @@ body {
 .team .team-Wrap .team-Bottom-Cards-Wrap .team-Card .team-Card-Btn:hover {
   cursor: pointer;
 }
-.team .team-Wrap .team-Bottom-Cards-Wrap .team-Card .team-Card-Btn:hover .team-Card-Btn-Line {
-  transform: rotate(-300deg);
-}
 .team .team-Wrap .team-Bottom-Cards-Wrap .team-Card .team-Card-Page-2 {
+  overflow: hidden;
   display: flex;
   flex-direction: column;
   padding: 5px;
   text-align: center;
   align-items: center;
   justify-content: space-evenly;
-  height: 100%;
-  width: 100%;
+  height: 0%;
+  width: 0%;
+  border-radius: 30%;
   position: absolute;
   background-color: rgba(253, 69, 69, 0.9);
   top: 0;
   right: 0;
+  opacity: 0;
+  transition: all 500ms ease-in-out;
 }
 .team .team-Wrap .team-Bottom-Cards-Wrap .team-Card .team-Card-Page-2 .team-card-Page-2-Text-1 {
   color: white;
@@ -570,6 +571,21 @@ body {
 }
 .team .team-Wrap .team-Bottom-Cards-Wrap .team-Card:hover {
   opacity: 1;
+}
+
+.team-Card.active {
+  opacity: 1;
+}
+
+.team-Card-Btn-Line.active {
+  transform: rotate(-300deg);
+}
+
+.team-Card-Page-2.active {
+  height: 100%;
+  width: 100%;
+  opacity: 1;
+  border-radius: 0%;
 }
 
 /*# sourceMappingURL=style.css.map */
