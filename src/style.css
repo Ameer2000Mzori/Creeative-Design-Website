@@ -640,5 +640,10 @@ body {
     font-size: 0.9rem;
   }
 }
+@media screen and (max-width: 1050px) {
+  .team {
+    height: 2600px;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */
