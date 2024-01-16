@@ -51,22 +51,5 @@ teamCardBtns.forEach((cardBtn, index) => {
 });
 
 window.addEventListener("click", (e) => {
-  if (e.target.className === "team-Card-Btn") {
-    console.log("true");
-  } else {
-    console.log("false");
-    teamCard.forEach((card) => {
-      card.classList.remove("active");
-    });
-
-    // team pege 2
-    teamCardPage2.forEach((card2) => {
-      card2.classList.remove("active");
-    });
-
-    // btn line
-    teamCardBtnLine.forEach((btnLine) => {
-      btnLine.classList.remove("active");
-    });
-  }
+  e.target.className !== "team-Card-Btn" ? removeAllClasses() : null;
 });
