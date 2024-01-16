@@ -90,6 +90,7 @@ class ShowTeamData {
   }
 }
 
-// function
-
-// event
+// function // event
+for (let [keys, values] of Object.entries(teamDataObj)) {
+  console.log(keys, values);
+}
