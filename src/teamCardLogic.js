@@ -14,13 +14,21 @@ const teamCardBtnLine = document.querySelectorAll(".team-Card-Btn-Line");
 
 // functions
 const openUserCard = (e, index) => {
-  if (e.target) {
-    console.log(e.target, "true");
-  } else {
-    console.log(e.target, "false");
-  }
+  // remove all classes function call
+  removeAllClasses();
 
-  console.log(index);
+  // here we will add active class to the clicked element
+  teamCard[index].classList += " active";
+  teamCardPage2[index].classList += " active";
+  teamCardBtnLine[index].classList += " active";
+
+  // test console
+  console.log(teamCard);
+  console.log(teamCard[index]);
+};
+
+// remove all classes function
+const removeAllClasses = () => {
   // team card
   teamCard.forEach((card) => {
     card.classList.remove("active");
@@ -35,23 +43,16 @@ const openUserCard = (e, index) => {
   teamCardBtnLine.forEach((btnLine) => {
     btnLine.classList.remove("active");
   });
-
-  teamCard[index].classList += " active";
-  teamCardPage2[index].classList += " active";
-  teamCardBtnLine[index].classList += " active";
-
-  console.log(teamCard);
-  console.log(teamCard[index]);
 };
 
 // events
+teamCardBtns.forEach((cardBtn, index) => {
+  cardBtn.addEventListener("click", (e) => openUserCard(e, index));
+});
 
 window.addEventListener("click", (e) => {
   if (e.target.className === "team-Card-Btn") {
     console.log("true");
-    teamCardBtns.forEach((cardBtn, index) => {
-      cardBtn.addEventListener("click", (e) => openUserCard(e, index));
-    });
   } else {
     console.log("false");
     teamCard.forEach((card) => {
