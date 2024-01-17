@@ -10,5 +10,10 @@ const userScroll = () => {
     : scrollUpBtn.classList.remove("active");
 };
 
+// window scroll up function
+const scrollUp = () => {
+  window.scrollTo({ top: 0, behavior: "smooth" });
+};
 // events
 window.addEventListener("scroll", userScroll);
+scrollUpBtn, addEventListener("click", scrollUp);

@@ -944,8 +944,7 @@ body {
               letter-spacing: 0.1rem;
               border: none;
               border-radius: 2rem;
-              box-shadow:
-                inset 0.1rem 0.1rem 0.2rem #ddd,
+              box-shadow: inset 0.1rem 0.1rem 0.2rem #ddd,
                 inset -0.1rem -0.1rem 0.2rem #ddd;
               resize: none;
             }
@@ -956,8 +955,7 @@ body {
               letter-spacing: 0.1rem;
               border: none;
               border-radius: 2rem;
-              box-shadow:
-                inset 0.1rem 0.1rem 0.2rem #ddd,
+              box-shadow: inset 0.1rem 0.1rem 0.2rem #ddd,
                 inset -0.1rem -0.1rem 0.2rem #ddd;
               resize: none;
               cursor: pointer;
@@ -1087,7 +1085,7 @@ body {
   justify-content: center;
   cursor: pointer;
   border: none;
-  transition: all 50ms ease-in-out;
+  transition: all 250ms ease-in-out;
 
   #scroll-Up-Btn-Icon {
     color: white;
