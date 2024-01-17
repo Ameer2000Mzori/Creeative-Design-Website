@@ -5,9 +5,9 @@ const scrollUpBtn = document.getElementsByClassName("scroll-Up-Btn")[0];
 
 // functions
 const userScroll = () => {
-  if (window.scrollY) {
-    console.log(window.screenY);
-  }
+  window.scrollY > 700
+    ? scrollUpBtn.classList.add("active")
+    : scrollUpBtn.classList.remove("active");
 };
 
 // events
