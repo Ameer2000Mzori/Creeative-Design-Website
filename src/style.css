@@ -752,7 +752,7 @@ body {
 .contact .contact-Wrap .contact-Bottom .contact-Bottom-Wrap .contact-Bottom-Right .contact-Bottom-Right-Form-Wrap .contact-Bottom-Inputs {
   margin: 1rem;
   padding: 1rem;
-  font-size: 1.3rem;
+  font-size: 1rem;
   letter-spacing: 0.1rem;
   border: none;
   border-radius: 2rem;
@@ -760,8 +760,7 @@ body {
   resize: none;
 }
 .contact .contact-Wrap .contact-Bottom .contact-Bottom-Wrap .contact-Bottom-Right .contact-Bottom-Right-Form-Wrap .send-Btn {
-  margin: 1rem;
-  padding: 1rem;
+  height: 150px;
   font-size: 1.3rem;
   letter-spacing: 0.1rem;
   border: none;
@@ -770,6 +769,10 @@ body {
   resize: none;
   cursor: pointer;
   background-color: #61edff;
+  transition: all 100ms ease-in-out;
+}
+.contact .contact-Wrap .contact-Bottom .contact-Bottom-Wrap .contact-Bottom-Right .contact-Bottom-Right-Form-Wrap .send-Btn:active {
+  transform: scale(0.9);
 }
 
 /*# sourceMappingURL=style.css.map */
