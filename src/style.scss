@@ -871,7 +871,6 @@ body {
       .contact-Bottom-Wrap {
         height: 100%;
         width: 80%;
-
         background-color: #e5e9ff;
         display: flex;
         align-items: center;
@@ -879,6 +878,16 @@ body {
         box-shadow: 0.3rem 0.3rem 0.4rem #ccc, -0.1rem -0.1rem 0.4rem #ccc;
         border-radius: 0.5rem;
         perspective: 100rem;
+
+        .contact-Bottom-Left {
+          width: 50%;
+          height: 100%;
+          display: flex;
+          text-align: center;
+          align-items: center;
+          justify-content: center;
+          flex-direction: column;
+        }
       }
     }
   }

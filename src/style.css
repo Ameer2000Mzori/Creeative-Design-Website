@@ -694,5 +694,14 @@ body {
   border-radius: 0.5rem;
   perspective: 100rem;
 }
+.contact .contact-Wrap .contact-Bottom .contact-Bottom-Wrap .contact-Bottom-Left {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
 
 /*# sourceMappingURL=style.css.map */
