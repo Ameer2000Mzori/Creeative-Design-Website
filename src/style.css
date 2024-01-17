@@ -677,10 +677,22 @@ body {
 .contact .contact-Wrap .contact-Bottom {
   height: 70%;
   width: 100%;
-  text-align: center;
   display: flex;
+  text-align: center;
+  align-items: center;
   flex-direction: column;
   justify-content: center;
+}
+.contact .contact-Wrap .contact-Bottom .contact-Bottom-Wrap {
+  height: 100%;
+  width: 80%;
+  background-color: #e5e9ff;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  box-shadow: 0.3rem 0.3rem 0.4rem #ccc, -0.1rem -0.1rem 0.4rem #ccc;
+  border-radius: 0.5rem;
+  perspective: 100rem;
 }
 
 /*# sourceMappingURL=style.css.map */
