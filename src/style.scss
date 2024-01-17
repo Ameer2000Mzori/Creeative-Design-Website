@@ -870,7 +870,7 @@ body {
 
       .contact-Bottom-Wrap {
         height: 100%;
-        width: 80%;
+        width: 100%;
         background-color: #e5e9ff;
         display: flex;
         align-items: center;
@@ -944,8 +944,7 @@ body {
               letter-spacing: 0.1rem;
               border: none;
               border-radius: 2rem;
-              box-shadow:
-                inset 0.1rem 0.1rem 0.2rem #ddd,
+              box-shadow: inset 0.1rem 0.1rem 0.2rem #ddd,
                 inset -0.1rem -0.1rem 0.2rem #ddd;
               resize: none;
             }
@@ -956,8 +955,7 @@ body {
               letter-spacing: 0.1rem;
               border: none;
               border-radius: 2rem;
-              box-shadow:
-                inset 0.1rem 0.1rem 0.2rem #ddd,
+              box-shadow: inset 0.1rem 0.1rem 0.2rem #ddd,
                 inset -0.1rem -0.1rem 0.2rem #ddd;
               resize: none;
               cursor: pointer;
@@ -966,6 +964,49 @@ body {
 
               &:active {
                 transform: scale(0.9);
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+//  contact media sizes
+@media screen and (max-width: 1350px) {
+  // contact
+  .contact {
+    .contact-Wrap {
+      .contact-Top {
+        height: 25%;
+
+        .contact-Top-Text-1 {
+          font-size: 7rem;
+        }
+      }
+
+      .contact-Bottom {
+        .contact-Bottom-Wrap {
+          .contact-Bottom-Left {
+            display: none;
+          }
+
+          .contact-Bottom-Right {
+            width: 100%;
+
+            perspective: none;
+
+            .contact-Bottom-Right-Form-Wrap {
+              width: 560px;
+              height: 300px;
+
+              box-shadow: 3rem -1rem 4rem #aaa;
+
+              transform: rotateY(-0rem);
+
+              &:hover {
+                transform: translateY(-0rem) rotateY(-0rem);
+                box-shadow: 2rem 2rem 3rem #aaa;
               }
             }
           }
