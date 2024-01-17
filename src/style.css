@@ -799,5 +799,33 @@ body {
     box-shadow: 2rem 2rem 3rem #aaa;
   }
 }
+@media screen and (max-width: 768px) {
+  .contact {
+    height: 120vh;
+  }
+  .contact .contact-Wrap .contact-Top {
+    height: 25%;
+  }
+  .contact .contact-Wrap .contact-Top .contact-Top-Text-1 {
+    font-size: 3rem;
+  }
+  .contact .contact-Wrap .contact-Bottom .contact-Bottom-Wrap .contact-Bottom-Left {
+    display: none;
+  }
+  .contact .contact-Wrap .contact-Bottom .contact-Bottom-Wrap .contact-Bottom-Right {
+    width: 100%;
+    perspective: none;
+  }
+  .contact .contact-Wrap .contact-Bottom .contact-Bottom-Wrap .contact-Bottom-Right .contact-Bottom-Right-Form-Wrap {
+    width: 560px;
+    height: 300px;
+    box-shadow: 3rem -1rem 4rem #aaa;
+    transform: rotateY(0rem);
+  }
+  .contact .contact-Wrap .contact-Bottom .contact-Bottom-Wrap .contact-Bottom-Right .contact-Bottom-Right-Form-Wrap:hover {
+    transform: translateY(0rem) rotateY(0rem);
+    box-shadow: 2rem 2rem 3rem #aaa;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */

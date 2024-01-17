@@ -1015,3 +1015,44 @@ body {
     }
   }
 }
+@media screen and (max-width: 768px) {
+  // contact
+  .contact {
+    height: 120vh;
+    .contact-Wrap {
+      .contact-Top {
+        height: 25%;
+
+        .contact-Top-Text-1 {
+          font-size: 3rem;
+        }
+      }
+
+      .contact-Bottom {
+        .contact-Bottom-Wrap {
+          .contact-Bottom-Left {
+            display: none;
+          }
+
+          .contact-Bottom-Right {
+            width: 100%;
+
+            perspective: none;
+
+            .contact-Bottom-Right-Form-Wrap {
+              width: 560px;
+              height: 300px;
+              box-shadow: 3rem -1rem 4rem #aaa;
+              transform: rotateY(-0rem);
+
+              &:hover {
+                transform: translateY(-0rem) rotateY(-0rem);
+                box-shadow: 2rem 2rem 3rem #aaa;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
