@@ -697,11 +697,27 @@ body {
 .contact .contact-Wrap .contact-Bottom .contact-Bottom-Wrap .contact-Bottom-Left {
   width: 50%;
   height: 100%;
+  background-color: #e5e9ff;
   display: flex;
-  text-align: center;
   align-items: center;
+  text-align: center;
   justify-content: center;
-  flex-direction: column;
+  border-radius: 0.5rem;
+  perspective: 100rem;
+}
+.contact .contact-Wrap .contact-Bottom .contact-Bottom-Wrap .contact-Bottom-Left .contact-Bottom-left-Img {
+  width: 35rem;
+  background-color: rgba(50, 231, 255, 0.8);
+  padding: 3rem;
+  opacity: 0.8;
+  box-shadow: -3rem 3rem 4rem #aaa;
+  border-radius: 0.5rem;
+  transform: rotateY(25deg);
+  transition: all 0.5s;
+}
+.contact .contact-Wrap .contact-Bottom .contact-Bottom-Wrap .contact-Bottom-Left .contact-Bottom-left-Img:hover {
+  transform: translateY(-2rem) rotateY(20deg);
+  box-shadow: -5rem 5rem 7rem #aaa;
 }
 
 /*# sourceMappingURL=style.css.map */
