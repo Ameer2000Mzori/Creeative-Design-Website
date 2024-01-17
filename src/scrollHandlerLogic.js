@@ -16,4 +16,4 @@ const scrollUp = () => {
 };
 // events
 window.addEventListener("scroll", userScroll);
-scrollUpBtn, addEventListener("click", scrollUp);
+scrollUpBtn.addEventListener("click", scrollUp);
