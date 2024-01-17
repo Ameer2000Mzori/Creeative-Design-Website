@@ -1076,18 +1076,26 @@ body {
   bottom: 4rem;
   height: 65px;
   width: 65px;
-  display: block;
   background-color: #57ecff;
   border-radius: 9px;
-  display: flex;
+  display: none;
   flex-direction: column;
   text-align: center;
   align-items: center;
   justify-content: center;
   cursor: pointer;
+  border: none;
+  transition: all 50ms ease-in-out;
 
   #scroll-Up-Btn-Icon {
     color: white;
     font-size: 2rem;
   }
+
+  &:active {
+    transform: scale(0.9);
+  }
+}
+.scroll-Up-Btn.active {
+  display: flex;
 }
