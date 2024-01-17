@@ -844,6 +844,19 @@ body {
       display: flex;
       flex-direction: column;
       justify-content: center;
+
+      .contact-Top-Text-1 {
+        font-size: 10rem;
+        font-weight: bold;
+        text-transform: uppercase;
+        font-family: $fontThree;
+        color: #999;
+        text-align: center;
+        opacity: 0.1;
+        text-shadow: 2rem 2rem 4rem #aaa;
+        padding: 0;
+        margin: 0;
+      }
     }
   }
 }
