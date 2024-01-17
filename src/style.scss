@@ -932,6 +932,11 @@ body {
             display: flex;
             justify-content: space-evenly;
             flex-direction: column;
+
+            &:hover {
+              transform: translateY(-5rem) rotateY(-10deg);
+              box-shadow: 2rem 2rem 3rem #aaa;
+            }
           }
         }
       }
