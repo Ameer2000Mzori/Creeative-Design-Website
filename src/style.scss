@@ -944,7 +944,8 @@ body {
               letter-spacing: 0.1rem;
               border: none;
               border-radius: 2rem;
-              box-shadow: inset 0.1rem 0.1rem 0.2rem #ddd,
+              box-shadow:
+                inset 0.1rem 0.1rem 0.2rem #ddd,
                 inset -0.1rem -0.1rem 0.2rem #ddd;
               resize: none;
             }
@@ -955,7 +956,8 @@ body {
               letter-spacing: 0.1rem;
               border: none;
               border-radius: 2rem;
-              box-shadow: inset 0.1rem 0.1rem 0.2rem #ddd,
+              box-shadow:
+                inset 0.1rem 0.1rem 0.2rem #ddd,
                 inset -0.1rem -0.1rem 0.2rem #ddd;
               resize: none;
               cursor: pointer;
@@ -993,19 +995,16 @@ body {
 
           .contact-Bottom-Right {
             width: 100%;
-
             perspective: none;
 
             .contact-Bottom-Right-Form-Wrap {
               width: 560px;
               height: 300px;
-
               box-shadow: 3rem -1rem 4rem #aaa;
-
-              transform: rotateY(-0rem);
+              transform: rotateY(-0);
 
               &:hover {
-                transform: translateY(-0rem) rotateY(-0rem);
+                transform: translateY(-0) rotateY(-0);
                 box-shadow: 2rem 2rem 3rem #aaa;
               }
             }
@@ -1015,10 +1014,12 @@ body {
     }
   }
 }
+
 @media screen and (max-width: 768px) {
   // contact
   .contact {
     height: 120vh;
+
     .contact-Wrap {
       .contact-Top {
         height: 25%;
@@ -1036,17 +1037,16 @@ body {
 
           .contact-Bottom-Right {
             width: 100%;
-
             perspective: none;
 
             .contact-Bottom-Right-Form-Wrap {
               width: 560px;
               height: 300px;
               box-shadow: 3rem -1rem 4rem #aaa;
-              transform: rotateY(-0rem);
+              transform: rotateY(-0);
 
               &:hover {
-                transform: translateY(-0rem) rotateY(-0rem);
+                transform: translateY(-0) rotateY(-0);
                 box-shadow: 2rem 2rem 3rem #aaa;
               }
             }
