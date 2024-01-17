@@ -716,7 +716,7 @@ body {
   transition: all 0.5s;
 }
 .contact .contact-Wrap .contact-Bottom .contact-Bottom-Wrap .contact-Bottom-Left .contact-Bottom-left-Img:hover {
-  transform: translateY(-2rem) rotateY(20deg);
+  transform: translateY(-3rem) rotateY(10deg);
   box-shadow: -5rem 5rem 7rem #aaa;
 }
 .contact .contact-Wrap .contact-Bottom .contact-Bottom-Wrap .contact-Bottom-Right {
@@ -729,6 +729,21 @@ body {
   justify-content: center;
   border-radius: 0.5rem;
   perspective: 100rem;
+}
+.contact .contact-Wrap .contact-Bottom .contact-Bottom-Wrap .contact-Bottom-Right .contact-Bottom-Right-Form-Wrap {
+  width: 500px;
+  height: 300px;
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 3rem;
+  opacity: 0.8;
+  box-shadow: 3rem -1rem 4rem #aaa;
+  border-radius: 0.5rem;
+  transform: rotateY(-25deg);
+  transition: all 0.5s;
+  background-color: #fff;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
 }
 
 /*# sourceMappingURL=style.css.map */
