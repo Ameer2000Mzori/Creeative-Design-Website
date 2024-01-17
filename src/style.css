@@ -719,5 +719,16 @@ body {
   transform: translateY(-2rem) rotateY(20deg);
   box-shadow: -5rem 5rem 7rem #aaa;
 }
+.contact .contact-Wrap .contact-Bottom .contact-Bottom-Wrap .contact-Bottom-Right {
+  width: 50%;
+  height: 100%;
+  background-color: #e5e9ff;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  border-radius: 0.5rem;
+  perspective: 100rem;
+}
 
 /*# sourceMappingURL=style.css.map */
